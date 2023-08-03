@@ -21,6 +21,3 @@ class Solver
     word.reverse
   end
 end
-
-solver = Solver.new
-puts solver.fizzbuzz(3)
