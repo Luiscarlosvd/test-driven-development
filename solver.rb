@@ -16,6 +16,10 @@ class Solver
 
     number.to_s
   end
+
+  def reverse(word)
+    word.reverse
+  end
 end
 
 solver = Solver.new
